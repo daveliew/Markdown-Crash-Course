@@ -1,4 +1,5 @@
 <!-- Headings -->
+<!-- ! comment -->
 
 # Heading 1
 
@@ -27,10 +28,10 @@ _this text_ is italic
 
 <!-- UL -->
 
--   Item 1
--   Item 2
-    -   Nested Item
-        -   Deeper nested
+- Item 1
+- Item 2
+  - Nested Item
+    - Deeper nested
 
 <!-- OL -->
 
@@ -66,7 +67,7 @@ _this text_ is italic
 
 ```javascript
 const helloWorld = () => {
-    return "Hello this rocks!";
+  return "Hello this rocks!";
 };
 ```
 
@@ -77,6 +78,6 @@ const helloWorld = () => {
 
 <!-- Task Lists -->
 
--   [x] Task 1
--   [ ] Task 2
--   [ ] Task 3
+- [x] Task 1
+- [ ] Task 2
+- [ ] Task 3
